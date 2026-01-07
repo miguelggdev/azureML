@@ -53,9 +53,9 @@ az login
 az group create \
   --name rg-azureml-lab \
   --location eastus
+```
 
-
-  ![Crear Resource Group](screenshots/group_create.jpg)
+  ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/group_create.jpg)
 
 - Imagen local (ruta relativa):
 
