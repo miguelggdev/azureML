@@ -41,10 +41,10 @@ Usuario
 ---
 
 ## 🚀 Paso 1 – Crear Resource Group
-Ingresar a Portal de azure
-Tener habilidatada una suscripcion de azure
-Abrir Cloud Shell
-Arriba seleccionar Bash (no PowerShell)
+- Ingresar a Portal de azure
+- Tener habilidatada una suscripcion de azure
+- Cloud Shell
+- Arriba seleccionar Bash (no PowerShell)
 ![Cloud Shell](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/cloudshell.jpg)
 
 Ejecutar los comandos:
@@ -55,6 +55,7 @@ az group create \
   --location eastus
 
 
+  ![Crear Resource Group](screenshots/group_create.jpg)
 
 - Imagen local (ruta relativa):
 
