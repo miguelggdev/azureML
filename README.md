@@ -104,7 +104,7 @@ Este paso es clave, porque aquí se ejecutan los experimentos.
 
 ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/azure_ML.jpg)
 
-- Entra al workspace:aml-lab-01
+- Entra al workspace: aml-lab-01
 - También se puede entrar: https://ml.azure.com
 
 ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/aml_lab_01.jpg)
@@ -118,9 +118,37 @@ Este paso es clave, porque aquí se ejecutan los experimentos.
 
 ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/instancias_proceso.jpg)
 
-Tamaño recomendado:
-Standard_DS11_v2
-Sistema: Ubuntu
+PASO 3.1: Crear la instancia
+
+Instancias de proceso
+ Clic en “Agregar instancia de proceso”
+ Cuando se abra el formulario:
+
+Nombre:ci-ml-lab
+
+Tipo de máquina
+
+CPU
+
+Tamaño
+
+Standard_DS3_v2
+
+
+(si no aparece, usa DS2_v2 como alternativa)
+
+Acceso SSH
+
+Desactivado ❌
+
+Apagado por inactividad
+
+✅ Activado
+
+30 minutos
+
+Luego:
+➡️ Crear
 
 📌 Qué es una Compute Instance
 
@@ -128,4 +156,35 @@ VM administrada por Azure ML
 
 Ideal para desarrollo, notebooks y pruebas
 
-  ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/ML_workspace.jpg)
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/instancia_proceso.jpg)
+
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/instancia_proceso2.jpg)
+
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/instancia_proceso3.jpg)
+
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/instancia_proceso4.jpg)
+
+Esperar hasa que termine de crear la instancia y aparezca "Ejecución en curso"
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/instancia_proceso5.jpg)
+
+Acceder a la instancia creada:
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/instancia_proceso6.jpg)
+
+## 🚀PASO 4 Crear Notebook ML
+
+Crear cuaderno
+Seleccionar la instancia
+Probar conexión
+Ejecutar Python
+Cargar dataset
+Entrenar modelo (sklearn)
+
+**Crear y ejecutar Notebook en Azure ML**
+Crear el Notebook
+En JupyterLab:
+En el panel izquierdo:
+Clic derecho → New
+Notebook
+Selecciona:
+Kernel: Python 3 (ipykernel)
+Nómbralo:proyecto1-azureml.ipynb
