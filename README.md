@@ -56,10 +56,6 @@ az group create \
 
   ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/group_create.jpg)
 
-
-```
-
-```
 Un Resource Group es un contenedor lógico
 
 Permite administrar costos, permisos y borrado
@@ -88,14 +84,14 @@ Azure crea automáticamente:
 
   ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/ML_workspace.jpg)
 
-Verificar que el workspace quedó creado
+## 🚀 Paso 2.1 Verificar que el workspace quedó creado
 
-
+```bash
 az ml workspace show \
   --name aml-lab-01 \
   --resource-group rg-azureml-lab \
   --query "{name:name,location:location,storage:storage_account}"
-
+```
   ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/validar_workspace.jpg)
 
 ## 🚀 Paso 3 – Crear Compute Instance
@@ -103,13 +99,9 @@ az ml workspace show \
 Desde el Azure ML Studio:
 
 Ir a Compute
-
 Crear Compute Instance
-
 Tamaño recomendado:
-
 Standard_DS11_v2
-
 Sistema: Ubuntu
 
 📌 Qué es una Compute Instance
