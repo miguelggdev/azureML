@@ -57,28 +57,34 @@ az group create \
 
   ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/group_create.jpg)
 
-- Imagen local (ruta relativa):
-
-  ![Texto alternativo](screenshots/ejemplo.png)
-
-  - Coloca la imagen dentro de la carpeta `screenshots` (o la que prefieras). En GitHub las rutas relativas funcionan automáticamente.
-
-- Imagen remota (URL completa):
-
-  ![Texto alternativo](https://example.com/imagen.png)
-
-- Controlar tamaño (HTML en MD):
-
-  <img src="screenshots/ejemplo.png" alt="Ejemplo" width="400" />
-
-- Nota: la sintaxis básica de Markdown es `![alt](ruta)` donde `ruta` puede ser relativa o absoluta.
-
-Ejemplo práctico:
 
 ```
 ![Diagrama del flujo](screenshots/diagrama.png)
 ```
+Un Resource Group es un contenedor lógico
 
-Si quieres, puedo añadir una imagen real (placeholder) en `screenshots/` y enlazarla aquí.
+Permite administrar costos, permisos y borrado
 
+## 🚀 Paso 2 – Crear Azure ML Workspace en Europa (Bash)
 
+👉 Asegúrate de estar en Cloud Shell – Bash
+
+Ejecutar los comandos:
+```bash
+
+az ml workspace create \
+  --name aml-lab-eu \
+  --resource-group rg-azureml-lab \
+  --location westeurope
+```
+
+⏳ Esperar 2–5 minutos.
+
+Azure crea automáticamente:
+
+- Storage Account
+- Key Vault- 
+- Applicati- on Insights
+- Container-  Registry (opciona- l)
+
+  ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/ML_workspace.jpg)
