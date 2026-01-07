@@ -199,3 +199,74 @@ Nómbralo:proyecto1-azureml.ipynb
 ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook2.jpg)
 
 ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook3.jpg)
+
+Probar que el entorno funciona
+
+En la primera celda, pega y ejecuta:
+```bash
+import sys
+print(sys.version)
+```
+
+✔️ Debe mostrar la versión de Python
+(si corre, todo está perfecto)
+
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook4.jpg)
+
+Ver librerías disponibles
+
+Nueva celda:
+```bash
+import sklearn
+import pandas
+import numpy
+import matplotlib
+
+print("Todo OK 🚀")
+```
+👉 En Azure ML las librerías NO siempre vienen preinstaladas
+👉 Se instalan por entorno o por notebook
+
+Instalar las librerías directamente en JupyterLab
+
+En una nueva celda, ejecuta EXACTAMENTE esto:
+
+```bash
+!pip install -U scikit-learn pandas numpy matplotlib
+```
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook5.jpg)
+
+Instalar usando EL MISMO Python del kernel
+
+En una celda nueva, ejecuta exactAMENTE esto:
+```bash
+import sys
+!{sys.executable} -m pip install -U scikit-learn pandas numpy matplotlib
+```
+sys.executable apunta al Python que usa este notebook.
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook6.jpg)
+
+Reiniciar el kernel (OBLIGATORIO)
+
+En JupyterLab:
+
+Menú Kernel
+
+Restart Kernel
+
+Confirma
+
+⛔ No solo “Restart & Run”, tiene que ser restart limpio.
+Verificación
+
+Ejecuta esto en una celda nueva:
+```bash
+import sklearn
+import pandas
+import numpy
+import matplotlib
+
+print("✅ sklearn disponible, entorno OK")
+```
+
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook7.jpg)
