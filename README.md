@@ -102,17 +102,14 @@ Este paso es clave, porque aquí se ejecutan los experimentos.
 Desde el Azure Portal
 Buscar Azure Machine Learning
 
-  ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/azure_ML.jpg)
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/azure_ML.jpg)
 
-Entra al workspace:
-aml-lab-eu
-Clic en Launch Studio
+- Entra al workspace:aml-lab-01
+- También se puede entrar: https://ml.azure.com
 
-También se puede entrar:
-
-https://ml.azure.com
-
-Desde el Azure ML Studio:
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/aml-lab-01.jpg)
+aml_lab_01
+- Desde el Azure ML Studio: Clic en Launch Studio
 
 Ir a Compute
 Crear Compute Instance
