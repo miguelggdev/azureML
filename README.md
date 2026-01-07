@@ -107,8 +107,8 @@ Este paso es clave, porque aquí se ejecutan los experimentos.
 - Entra al workspace:aml-lab-01
 - También se puede entrar: https://ml.azure.com
 
-![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/aml-lab-01.jpg)
-aml_lab_01
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/aml_lab_01.jpg)
+
 - Desde el Azure ML Studio: Clic en Launch Studio
 ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/launch_studio.jpg)
 ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/foundry.jpg)
