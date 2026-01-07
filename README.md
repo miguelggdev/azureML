@@ -37,7 +37,6 @@ Usuario
 │ │ └── Model Registry
 └── Azure CLI
 
-
 ---
 
 ## 🚀 Paso 1 – Crear Resource Group
@@ -59,7 +58,7 @@ az group create \
 
 
 ```
-![Diagrama del flujo](screenshots/diagrama.png)
+
 ```
 Un Resource Group es un contenedor lógico
 
@@ -86,5 +85,37 @@ Azure crea automáticamente:
 - Key Vault- 
 - Applicati- on Insights
 - Container-  Registry (opciona- l)
+
+  ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/ML_workspace.jpg)
+
+Verificar que el workspace quedó creado
+
+
+az ml workspace show \
+  --name aml-lab-01 \
+  --resource-group rg-azureml-lab \
+  --query "{name:name,location:location,storage:storage_account}"
+
+  ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/validar_workspace.jpg)
+
+## 🚀 Paso 3 – Crear Compute Instance
+
+Desde el Azure ML Studio:
+
+Ir a Compute
+
+Crear Compute Instance
+
+Tamaño recomendado:
+
+Standard_DS11_v2
+
+Sistema: Ubuntu
+
+📌 Qué es una Compute Instance
+
+VM administrada por Azure ML
+
+Ideal para desarrollo, notebooks y pruebas
 
   ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/ML_workspace.jpg)
