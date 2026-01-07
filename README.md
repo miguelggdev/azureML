@@ -96,6 +96,22 @@ az ml workspace show \
 
 ## 🚀 Paso 3 – Crear Compute Instance
 
+Acceder a Azure ML Studio y crear Compute Instance
+Este paso es clave, porque aquí se ejecutan los experimentos.
+
+Desde el Azure Portal
+Buscar Azure Machine Learning
+
+  ![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/azure_ML.jpg)
+
+Entra al workspace:
+aml-lab-eu
+Clic en Launch Studio
+
+También se puede entrar:
+
+https://ml.azure.com
+
 Desde el Azure ML Studio:
 
 Ir a Compute
