@@ -13,7 +13,7 @@ El objetivo es practicar el flujo completo de trabajo de Azure ML, desde la crea
 - Entrenar un modelo ML en JupyterLab
 - Evaluar métricas del modelo
 - Registrar el modelo en Azure ML
-- Documentar el proceso para uso profesional y entrevistas
+- Documentar el proceso para uso profesional
 
 ---
 
@@ -45,7 +45,7 @@ Ingresar a Portal de azure
 Tener habilidatada una suscripcion de azure
 Abrir Cloud Shell
 Arriba seleccionar Bash (no PowerShell)
-![Texto alternativo](https://ruta-de-la-imagen.com/imagen.png)
+![Cloud Shell](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/cloudshell.jpg)
 
 Ejecutar los comandos:
 ```bash
