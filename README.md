@@ -172,6 +172,12 @@ Acceder a la instancia creada:
 
 ## 🚀PASO 4 Crear Notebook ML
 
+En Aplicaciones abrir: JupyterLab
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/jupyterlab.jpg)
+
+Esto abre el Cuaderno:
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/jupyterlab2.jpg)
+
 Crear cuaderno
 Seleccionar la instancia
 Probar conexión
@@ -183,8 +189,13 @@ Entrenar modelo (sklearn)
 Crear el Notebook
 En JupyterLab:
 En el panel izquierdo:
-Clic derecho → New
-Notebook
+Clic derecho → New Notebook
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook.jpg)
+
 Selecciona:
 Kernel: Python 3 (ipykernel)
 Nómbralo:proyecto1-azureml.ipynb
+
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook2.jpg)
+
+![Crear Resource Group](https://github.com/miguelggdev/azureML/blob/main/project-01-azureml-sklearn/screenshots/newnotebook3.jpg)
